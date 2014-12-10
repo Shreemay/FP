@@ -1,0 +1,8 @@
+def length(li):
+	ls = lambda x: 1, li
+	print ls
+	#print reduce(lambda x,y: x+y, lambda x: 1, li)
+
+lst = [1,2,3,4,5,6,7,8,9,10]
+count=0
+length(lst)

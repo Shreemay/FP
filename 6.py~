@@ -1,0 +1,12 @@
+def low(li):
+	li = map(fun,li)
+	print li
+
+def fun(x):
+	if x.isupper():
+		return x.lower()
+	else:
+		return x
+
+lst = ['Hello World','abc','NaMo','INDIA','python']
+low(lst)
